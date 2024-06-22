@@ -1,5 +1,8 @@
 <?php
-$db=pg_connect("host=127.0.0.1 port=5432 dbname=AppReport user=postgres password=ANR123");
+
+$db=pg_connect("host=viaduct.proxy.rlwy.net port=22002 dbname=railway user=postgres password=YgSvXTwuzCkRMatsdDXpUYQmGjDKbxwu");
+/*$db=pg_connect("host=127.0.0.1 port=5432 dbname=AppReport user=postgres password=ANR123");  viaduct.proxy.rlwy.net*/
+
 if($db)
 {
     echo ("exito");
